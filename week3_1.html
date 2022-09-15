@@ -1,0 +1,15 @@
+<!DOCTYPE html> 
+<html>
+<body>
+<h2> String method 1</h2>
+<p>It will Replace "Jam" with "butter" in the :</p>
+<button onclick="myFunction()">replace the text</button> <p id="trial1"> I will eat jam and bread</p>
+<script>
+function myFunction() {
+  let text = document.getElementById("trial1").innerHTML;
+  document.getElementById("trial1").innerHTML =
+text.replace("jam","butter");
+}
+</script>
+</body>
+</html>
